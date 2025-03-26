@@ -1,202 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -204,13 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 /* start section 2 */
 .section2{
     background-color: plum;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     gap: 30px;
     padding: 50px;
@@ -249,13 +48,7 @@
     gap: 10px;
 }
 
-/* end section 1 */
-
-
-
-/* start section 5 */
-
-.section5{
+.sec2-icone div i{
     background-color: rgb(194, 145, 219);
     width: 50px;
     height: 50px;
@@ -349,7 +142,6 @@
     gap: 20px;
     color: white;
 }
-
 
 .sec4-poursentage {
    display: flex;
