@@ -9,7 +9,7 @@
 .section2{
     background-color: plum;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 30px;
     padding: 50px;
