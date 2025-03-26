@@ -1,26 +1,239 @@
-.section2{
-    background-color: plum;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* start header */
+
+header{
+    height: 10vh;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-.sec2-top{
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 250px;
+}
+
+.nav-div-left a{
+    text-decoration: none;
+    color: purple;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.nav-div-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight:500;
+}
+
+.nav-div-right{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.button-sign-up{
+    background: purple;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 0.8;
+}
+
+/* end header  */
+
+
+/* start section 1 */
+
+.section1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.sec2-icone
+
+.sec1-texte{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.sec1-texte h2{
+    font-weight: 500;
+    font-size: 1.7em;
+}
+
+.sec1-texte p{
+    color: rgb(86, 86, 86);
+    font-size: 0.9em;
+}
+
+.sec1-button{
+    background: purple;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 0.9;
+    width: 200px;
+}
+
+.sec1-last-icones{
+    display: flex;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.sec1-last-icones div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* end section 1 */
 
 
 
 
-.sec2-icone div i{
-    background-color: rgb(188, 42, 188);
-    width: 50px;
-    height: 50px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start section 5 */
+
+.section5{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    gap: 20px;
 }
+
+.sec4-icons-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sec4-icons-left div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 350px;
+    gap: 5px;
+}
+
+.sec4-icons-left div i{
+    position: absolute;
+    left: -35px;
+    font-size: 1.5em;
+}
+
+.sec4-icons-left div h5{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.sec4-icons-left div p{
+    font-size: 0.9em;
+    width: 300px;
+}
+
+.section5 div>img{
+    width: 550px;
+}
+
+/* end section 5 */
+
+/* start main */
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-bottom: 100px;
+}
+
+/* end main  */
+
+
+/* start footer > */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-para1{
+    font-size: 0.8em;
+    color: rgb(89, 89, 89);
+}
+
+.footer-para2{
+    font-size: 1.50em;
+    width: 700px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-center-input{
+    width: 350px;
+    padding: 7px;
+    font-size: 0.9em;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+
+.footer-center-button{
+    width: 350px;
+    padding: 7px;
+    font-size: 0.9em;
+    background: purple;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+/* end footer > */
