@@ -1,26 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* start section 2 */
 .section2{
     background-color: plum;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
+    padding: 50px;
 }
+
 .sec2-top{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 20px;
 }
-.sec2-icone
 
+.sec2-icone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
+.sec2-icone div p{
+    text-align: center;
+    width: 250px;
+}
 
+.sec2-icone div{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
 .sec2-icone div i{
-    background-color: rgb(188, 42, 188);
+    background-color: rgb(194, 145, 219);
     width: 50px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 10px;
+    border-radius: 70%;
+}
+
+.sec2-icone div h3 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* end section 2 */
+
+
+
+/* start section 3 */
+.section3{
+    /* background-color: rgb(3, 126, 140); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+}
+.sec3-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+/* end section 3 */
+
+
+/* start section 4 */
+.section4{
+    background-color: rgb(123, 0, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+}
+.sec4-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 20px;
+    color: white;
+}
+
+.sec4-poursentage {
+   display: flex;
+  text-align: center;
+   align-items: center;
+   gap: 40px;
+   color: white;
+}
+
+.sec4-poursentage div h1{
+    color: white;
+    font-size: 3em;
+
+    
+}
+
+.sec4-poursentage div p{
+    font-size: 1em;
 
 }
+.sec4-link a{
+    color: white;
+    text-decoration: none;
+}
+/* end section 4 */
